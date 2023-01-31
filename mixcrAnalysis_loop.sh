@@ -7,19 +7,16 @@
 # Steps to follow before using MiXCR
 
 # 1. Please set the path of your input FASTQ files
-homepath='/home/projects/cu_10158/people/arighi/MIXCR/FastqFiles/Plate3'
+homepath='/path/to/FastqFiles/'
 
 # 2. Please set the path of output folder
-outPut='/home/projects/cu_10158/people/arighi/MIXCR/outPut/'
+outPut='path/to/outPut/'
 
 # 3. Please set -OmaxBadPointsPercent to 0 for bulk samples and to 0.5 for clones in Assemple section
 
 # 4. Please set the minimum number of reads that you want to export (-m) in Clones section
 
 ################################################################################################################################################
-#the line below should be run in Terminal after saving 
-# qsub -W group_list=cu_10158 -A cu_10158 -l nodes=2:ppn=10,mem=40gb,walltime=1:00:00 mixcrAnalysis_loop.sh
-
 module load tools
 module load openjdk/18.0.1
 module load mixcr/4.0.0
