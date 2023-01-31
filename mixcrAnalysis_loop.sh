@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # This Shell scipt is to run MiXCR software platform for immune profiling with Next-Generation Sequencing (NGS) data.
-# This Shell scipt performs Alignment, Assembly analysis and then Export clones from Bulk TCR RNA seq data. 
+# This scipt performs Alignment, Assembly analysis and then Export clones from Bulk TCR RNA seq data. 
 
 ###############################################################################################################################################
 # Steps to follow before using MiXCR
